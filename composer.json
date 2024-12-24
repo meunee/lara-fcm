@@ -1,0 +1,22 @@
+{
+    "name": "meunee/lara-fcm",
+    "description": "Laravel fcm api http v1 package",
+    "type": "library",
+    "require": {
+        "google/apiclient": "^2.12.1",
+        "google/cloud-binary-authorization": "^0.5.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Meunee\\LaraFcm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruslan Murzabaev",
+            "email": "ymptnss@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
