@@ -4,6 +4,8 @@ namespace Meunee\LaraFcm;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
+use Meunee\LaraFcm\Sender\FCMGroup;
+use Meunee\LaraFcm\Sender\FCMSender;
 
 class FCMServiceProvider extends ServiceProvider
 {
