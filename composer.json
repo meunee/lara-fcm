@@ -18,5 +18,16 @@
             "email": "ymptnss@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Meunee\\LaraFcm\\FCMServiceProvider"
+            ],
+            "aliases": {
+                "FCM": "Meunee\\LaraFcm\\Facades\\FCM",
+                "FCMGroup": "Meunee\\LaraFcm\\Facades\\FCMGroup"
+            }
+        }
+    }
 }
